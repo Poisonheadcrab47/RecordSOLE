@@ -8,10 +8,21 @@
     <Filter Include="Modules">
       <UniqueIdentifier>{0b8a5e0b-b029-418a-805c-910a33e8925e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pages">
+      <UniqueIdentifier>{fa4fb52e-f155-48b1-b7d5-dcb9f1647f86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>Pages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main_menu.h">
+      <Filter>Pages</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
